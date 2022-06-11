@@ -23,7 +23,7 @@ min_samples=2
 # metric="euclidean"
 metric="cosine"
 
-filename='data/cluster_example_data.csv'
+filename= '../data/cluster_example_data.csv'
 
 # create data
 data=pd.read_csv(filename)

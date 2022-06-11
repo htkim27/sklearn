@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score ,confusion_matrix, classification_rep
 import matplotlib.pyplot as plt
 
 # set variables
-filename='data/iris_data.csv'
+filename= '../data/iris_data.csv'
 label_classes=['versicolor','virginica']
 lr_C=0.5
 lr_penalty='l2'

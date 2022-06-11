@@ -6,7 +6,7 @@ from scipy.cluster.hierarchy import dendrogram, linkage
 from sklearn.metrics import silhouette_score
 
 # 변수 지정
-filename = 'data/cluster_example_data.csv'
+filename = '../data/cluster_example_data.csv'
 linkage_choice = 'ward'
 n_clusters = 2
 

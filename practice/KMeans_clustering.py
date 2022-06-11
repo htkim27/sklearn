@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import normalize
 from sklearn.metrics import silhouette_score
 
-filename='data/cluster_example_data.csv'
+filename= '../data/cluster_example_data.csv'
 df=pd.read_csv(filename)
 
 # set data points, data points

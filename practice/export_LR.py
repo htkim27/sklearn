@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression, Lasso, Ridge
 
 # 파일 불러오기
-filename='data/export.csv'
+filename= '../data/export.csv'
 data = pd.read_csv(filename, encoding='utf-8')
 data.drop([data.columns[0]],axis=1,inplace=True)
 data.astype('int64')

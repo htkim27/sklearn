@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression, Lasso, Ridge
 
 # 파일 불러오기
-filename='data/housing.csv'
+filename= '../data/housing.csv'
 data = pd.read_csv(filename)
 # print(df.head())
 # print(df.info())
