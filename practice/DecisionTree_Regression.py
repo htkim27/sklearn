@@ -1,13 +1,13 @@
 import pandas as pd
 import numpy as np
 from sklearn.tree import DecisionTreeRegressor
+from sklearn.model_selection import GridSearchCV
 from sklearn import tree
 import matplotlib.pyplot as plt
 
 # import data
 filename = '../data/Hitters_new.csv'
 data = pd.read_csv(filename)
-
 
 # shuffle data
 data_np = data.values
