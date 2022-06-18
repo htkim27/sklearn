@@ -20,6 +20,7 @@ class Data:
         self.filename = filename
         if self.filename.split('.')[-1] == 'csv':
             df = pd.read_csv(self.filename)
+            print('raw_data',df.head(),sep='\n')
         self.df = df
 
         return self.df
