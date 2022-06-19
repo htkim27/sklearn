@@ -35,7 +35,7 @@ y_preds = model.predict(X_test)
 
 # validation
 ## accuracy_score
-score = accuracy_score(y_preds, y_test)
+score = accuracy_score(y_test, y_preds)
 print(f'accuracy_score : {score}')
 print()
 
