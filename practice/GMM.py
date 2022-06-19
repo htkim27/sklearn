@@ -4,7 +4,7 @@ from sklearn.mixture import GaussianMixture
 from matplotlib import pyplot as plt
 
 # randomly generate 4 clusters
-X, y = make_blobs(n_samples=300, centers=4, cluster_std=0.6, random_state=0)
+X, y = make_blobs(n_samples=300, centers=5, cluster_std=0.6)
 plt.scatter(X[:,0], X[:,1])
 plt.title("Raw Data")
 plt.show()
